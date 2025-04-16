@@ -1,0 +1,113 @@
+:root {
+  --blue-dark: #02023f;   /* آبی پرنگ */
+  --black: #000000;       /* مشکی */
+  --midnight-blue: #191970; /* آبی شب */
+  --dark-blue: #001f3d;   /* آبی تیره */
+  --indigo: #4B0082;      /* نیل */
+  --dark-violet: #9400d3;  /* بنفش تیره */
+  --dark-purple: #800080;   /* بنفش تیره */
+  --dark-slate-blue: #483d8b; /* آبی سنگی تیره */
+  --steel-blue: #4682b4;    /* آبی فولادی */
+  --charcoal: #36454f;      /* زغالی */
+  --gunmetal: #2a3439;      /* فلزی تیر‌ه */
+  --slate-gray: #708090;    /* خاکی آبی */
+}
+
+body {
+  direction: rtl;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: var(--midnight-blue);
+
+
+}
+
+.bodyPage {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+button {
+  all: unset; /* حذف تمام استایل‌های پیش‌فرض مرورگر */
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: var(--dark-purple);
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.container_Qr {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,h2,h3 {
+  color: white;
+}
+
+.input_write {
+  background-color: var(--steel-blue);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.input_write::placeholder {
+  color: white;
+}
+
+
+.back-ready {
+  width: 100vw;
+  background-color: var(--steel-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download {
+  text-decoration: none;
+  background-color: var(--blue-dark);
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+
+}
+
+.download:hover {
+  transform: scale(1.1);
+}
+
+
+.custom-button {
+  cursor: pointer;
+  color: white;
+  background-color: var(--dark-slate-blue);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  
+
+}
